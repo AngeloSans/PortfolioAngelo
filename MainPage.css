@@ -21,44 +21,11 @@ h3{
     color: #ffffff;
 }
 
-nav{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    top:20px;
-    left: 800px;
-}
-.NavList{
-    display: flex;
-    align-items: center;
-    list-style: none;
 
-}
-.NavList li{
-    margin-left: 20px;
-    float: left;
-}
-.NavList ul{
-    list-style-type: none;
-    overflow: hidden;
 
-}
-.NavList a{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-.NavList:hover a{
-    color: #c0c0c0;;
-}
-.NavList a:hover{
-    color: #262626;
-}
 .Header{
     position: relative;
-    height: 650px;
+    height: 100vh;
     width: 100%;
 }
 .Header button{
@@ -73,6 +40,14 @@ nav{
     height: 50px;
     cursor: pointer;
     font-weight: bolder;
+}
+
+.Raven {
+    display: block; /* Alterado para exibição de bloco */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    margin-top: 80px; /* Espaçamento superior */
+    width: 250px;
+    margin-left: 900px;
 }
 .Header h2{
     position: absolute;
@@ -98,7 +73,7 @@ nav{
 
 .About{
     position: relative;
-    height: 500px;
+    height: 100vh;
     width: 100%;
 }
 .About h1{
@@ -140,56 +115,61 @@ nav{
     left: 500px;
 }
 
-.container .row{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-}
-.row .col{
-    flex-basis: 46%;
-}
-.row .sub-title h2{
-    position: relative;
-    color: white;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
 
-.progress-bar{
-    position: relative;
-    width: 100%;
-    height: 5px;
-    background-color: white;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
-.progress-bar::after{
+.MyFinances h1{
     position: absolute;
-    content: attr(value);
-    top: -35px;
-    right: 0;
-    color: purple;
-    font-size: 18px;
-}
-.subject{
     color: white;
-}
-.row{
-    position: relative;
+    top: 150px;
     left: 100px;
 }
-.progress-line{
+.MyFinances img {
     position: absolute;
-    width: 0%;
-    height: 7px;
+    border-radius: 5px;
+    top: 50%; /* Ajusta a posição em relação ao contêiner pai */
+    left: 5%; /* Ajusta a posição em relação ao contêiner pai */
+    width: 50%; /* Define a largura em relação ao contêiner pai */
+    max-height: 60vh; /* Limita a altura máxima em relação à altura da tela */
+}
+
+.Roxo{
+    position: absolute;
+    height: 200px;
+    width: 35%;
+    top: 70%;
+    left: 40%;
     background-color: #8700A9;
-    border-radius: 15px;
-    top: -1px;
-    animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-@keyframes animate{
-    100%{
-        width: 98%;
-    }
+
+.Roxo h3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
+.tools ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 55%;
+    top: 110%;
+}
+
+.tools li {
+    display: inline-block;
+    margin-right: 10px; 
+    color: white;
+}
+
+.Contacts{
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.Contacts h1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
