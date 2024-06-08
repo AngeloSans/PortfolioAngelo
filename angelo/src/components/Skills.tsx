@@ -1,7 +1,17 @@
 const skills = [
-    { name: "Java", icon: "/path/to/java-icon.svg" },
-    { name: "PostgreSQL", icon: "/path/to/postgresql-icon.svg" },
-    // Adicione todos os seus skills aqui
+    { name: "Java", icon: "/icones/java.svg" },
+    { name: "SpringBoot", icon: "/icones/springboot.svg" },
+    { name: "PostgreSQL", icon: "/icones/postgre.svg" },
+    { name: "C#", icon: "/icones/csharp.svg" },
+    { name: ".Net", icon: "/icones/net.svg" },
+    { name: "TypeScript", icon: "/icones/typescript.svg" },
+    { name: "Next.js", icon: "/icones/nextjs.svg" },
+    { name: "Git", icon: "/icones/git.svg" },
+    { name: "AWS", icon: "/icones/aws.svg" },
+    { name: "Python", icon: "/icones/python.svg" },
+    { name: "Tailwind", icon: "/icones/tailwind.svg" },
+    { name: "Kubernets", icon: "/icones/kubernetes.svg" },
+
 ];
 
 const Skills = () => (

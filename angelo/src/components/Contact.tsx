@@ -4,7 +4,7 @@ const Contact = () => (
         <p className="text-lg text-white mt-4">
             I'm currently looking for a job offer as a software engineer.
         </p>
-        <a href="mailto:Gabrielange883@gmail.com" className="text-purple-400 text-lg mt-2">Gabrielange883@gmail.com</a>
+        <a href="mailto:Gabrielange883@gmail.com" className="text-lg mt-2" style={{color: '#5007C8', marginTop: '2rem'}}>Gabrielange883@gmail.com</a>
         <div className="flex justify-center mt-6 space-x-4">
             <a href="#" className="text-white"><img src="/path/to/linkedin-icon.svg" alt="LinkedIn" className="w-6 h-6" /></a>
             <a href="#" className="text-white"><img src="/path/to/github-icon.svg" alt="GitHub" className="w-6 h-6" /></a>
