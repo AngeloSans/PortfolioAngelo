@@ -19,7 +19,7 @@ const Skills = () => (
         <h2 className="text-3xl font-bold text-white">My Skills</h2>
         <div className="flex flex-wrap justify-center mt-6">
             {skills.map(skill => (
-                <div key={skill.name} className="m-4">
+                <div key={skill.name} className="m-10">
                     <img src={skill.icon} alt={skill.name} className="w-12 h-12 mx-auto" />
                     <p className="text-white mt-2">{skill.name}</p>
                 </div>
