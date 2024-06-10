@@ -1,10 +1,36 @@
 const projects = [
     {
-        title: "Project Example 1",
-        description: "I made this project to for example",
+        title: "Sivir Coffe",
+        description: "Aplicacao de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "/path/to/project-image-1.jpg"
+        image: "IconesProjetos/Coffe.svg",
+        githubLink: "#"
     },
+    {
+        title: "Retriever",
+        description: "Aplicacao de café feita usando .Net",
+        technologies: ["C#", "ASP.NET", "SQL"],
+        image: "iconesProjetos/Dog.svg"
+
+    },
+    {
+        title: "My Finances",
+        description: "Aplicacao de café feita usando .Net",
+        technologies: ["C#", "ASP.NET", "SQL"],
+        image: "IconesProjetos/Money.svg"
+    },
+    {
+        title: "XPhone",
+        description: "Aplicacao de café feita usando .Net",
+        technologies: ["C#", "ASP.NET", "SQL"],
+        image: "iconesProjetos/Iphone.svg"
+    },
+    {
+        title: "Capital Invest",
+        description: "Aplicacao de café feita usando .Net",
+        technologies: ["C#", "ASP.NET", "SQL"],
+        image: "iconesProjetos/Invest.svg"
+    }
     // Adicione mais projetos aqui
 ];
 
@@ -13,15 +39,20 @@ const Projects = () => (
         <h2 className="text-3xl font-bold text-white">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {projects.map(project => (
-                <div key={project.title} className=" rounded-lg p-6 shadow-lg" style={{backgroundColor: '#090018'}}>
-                    <img src={project.image} alt={project.title} className="w-full h-32 object-cover rounded-lg" />
+                <div key={project.title} className="rounded-lg p-6 shadow-lg" style={{backgroundColor: '#090018'}}>
+                    <img src={project.image} alt={project.title} className="w-12 h-12 mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-white mt-4">{project.title}</h3>
                     <p className="text-white mt-2">{project.description}</p>
+                    {project.githubLink && (
+                        <a href={project.githubLink} className="text-sm text-purple-500 mt-4 inline-block">
+                            See Project on GitHub
+                        </a>
+                    )}
                     <div className="flex flex-wrap justify-center mt-4">
                         {project.technologies.map(tech => (
                             <span key={tech} className="bg-purple-600 text-white text-sm rounded-full px-4 py-1 m-1">
-                {tech}
-              </span>
+                                {tech}
+                            </span>
                         ))}
                     </div>
                 </div>
