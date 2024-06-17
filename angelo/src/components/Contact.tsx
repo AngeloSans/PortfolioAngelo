@@ -2,7 +2,7 @@ const Contact = () => (
     <section className="my-12 text-center h-1/2" style={{backgroundColor: '#04000E'}}>
         <h2 className="text-3xl font-bold text-white">Contact</h2>
         <p className="text-lg text-white mt-4">
-            I'm currently looking for a job offer as a software engineer.
+            I&apos;m currently looking for a job offer as a software engineer.
         </p>
         <a href="mailto:Gabrielange883@gmail.com" className="text-lg mt-8 text-purple-700 font-bold">Gabrielange883@gmail.com</a>
         <div className="flex justify-center mt-6 space-x-4">
