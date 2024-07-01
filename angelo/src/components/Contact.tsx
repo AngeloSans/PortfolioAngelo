@@ -1,5 +1,5 @@
 const Contact = () => (
-    <section className="my-12 text-center h-1/2" style={{backgroundColor: '#04000E'}}>
+    <section className="my-12 text-center h-96" style={{backgroundColor: '#04000E'}}>
         <h2 className="text-3xl font-bold text-white">Contact</h2>
         <p className="text-lg text-white mt-4">
             I&apos;m currently looking for a job offer as a software engineer.

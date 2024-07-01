@@ -4,7 +4,7 @@ const projects = [
         description: "Aplicacao de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
         image: "IconesProjetos/Coffe.svg",
-        githubLink: "#"
+
     },
     {
         title: "Retriever",
@@ -23,7 +23,8 @@ const projects = [
         title: "XPhone",
         description: "Aplicacao de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "iconesProjetos/Iphone.svg"
+        image: "iconesProjetos/Iphone.svg",
+        githubLink: "https://github.com/Anjocaido13/XPhone"
     },
     {
         title: "Capital Invest",
