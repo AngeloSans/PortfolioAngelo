@@ -3,38 +3,35 @@ import Image from "next/image";
 const projects = [
     {
         title: "Sivir Coffe",
-        description: "Aplicacao de café feita usando .Net",
+        description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
         image: "IconesProjetos/Coffe.svg",
-
     },
     {
         title: "Retriever",
-        description: "Aplicacao de café feita usando .Net",
+        description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "iconesProjetos/Dog.svg"
-
+        image: "iconesProjetos/Dog.svg",
     },
     {
         title: "My Finances",
-        description: "Aplicacao de café feita usando .Net",
+        description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "IconesProjetos/Money.svg"
+        image: "IconesProjetos/Money.svg",
     },
     {
         title: "XPhone",
-        description: "Aplicacao de café feita usando .Net",
+        description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
         image: "iconesProjetos/Iphone.svg",
-        githubLink: "https://github.com/Anjocaido13/XPhone"
+        githubLink: "https://github.com/Anjocaido13/XPhone",
     },
     {
         title: "Capital Invest",
-        description: "Aplicacao de café feita usando .Net",
+        description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "iconesProjetos/Invest.svg"
+        image: "iconesProjetos/Invest.svg",
     }
-    
 ];
 
 const Projects = () => (
@@ -43,7 +40,13 @@ const Projects = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {projects.map(project => (
                 <div key={project.title} className="rounded-lg p-6 shadow-lg" style={{backgroundColor: '#090018'}}>
-                    <Image src={project.image} alt={project.title} className="w-12 h-12 mx-auto mb-4" />
+                    <Image
+                        src={project.image}
+                        alt={project.title}
+                        width={200} // Ajuste a largura conforme necessário
+                        height={200} // Ajuste a altura conforme necessário
+                        className="w-12 h-12 mx-auto mb-4" // Estilo para controle de tamanho
+                    />
                     <h3 className="text-xl font-bold text-white mt-4">{project.title}</h3>
                     <p className="text-white mt-2">{project.description}</p>
                     {project.githubLink && (

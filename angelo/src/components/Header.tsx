@@ -3,12 +3,11 @@ import Image from 'next/image';
 const Header = () => (
     <header className="text-center my-1 px-4 sm:px-6 lg:px-8 min-h-screen h-[70vh]">
         <div className="flex justify-center">
-
         </div>
-        <h1 className="text-4xl font-bold text-white mt-4 sm:mt-6 lg:mt-8 sm:text-5xl lg:text-6xl" style={{ marginRight: 'auto', marginLeft: 'auto', maxWidth: '90%' }}>
+        <h1 className="text-4xl font-bold text-white mt-40 sm:mt-40 lg:mt-40 sm:text-5xl lg:text-6xl" style={{ marginRight: 'auto', marginLeft: 'auto', maxWidth: '90%' }}>
             Hey I&apos;m Angelo
         </h1>
-        <h2 className="text-5xl font-bold mt-4 sm:mt-6 lg:mt-8 sm:text-9xl lg:text-5xl" style={{ color: '#5007C8', fontWeight: 'bolder' }}>
+        <h2 className="text-5xl font-bold mt-8 sm:mt-10 lg:mt-12 sm:text-9xl lg:text-5xl" style={{ color: '#5007C8', fontWeight: 'bolder' }}>
             Software Engineer
         </h2>
         <p className="text-lg text-white mt-2 sm:mt-4 lg:mt-6 sm:text-xl lg:text-2xl max-w-2xl mx-auto">

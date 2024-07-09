@@ -12,8 +12,7 @@ const skills = [
     { name: "AWS", icon: "/icones/aws.svg" },
     { name: "Python", icon: "/icones/python.svg" },
     { name: "Tailwind", icon: "/icones/tailwind.svg" },
-    { name: "Kubernets", icon: "/icones/kubernetes.svg" },
-
+    { name: "Kubernetes", icon: "/icones/kubernetes.svg" },
 ];
 
 const Skills = () => (
@@ -22,7 +21,13 @@ const Skills = () => (
         <div className="flex flex-wrap justify-center mt-6">
             {skills.map(skill => (
                 <div key={skill.name} className="m-10">
-                    <Image src={skill.icon} alt={skill.name} className="w-12 h-12 mx-auto" />
+                    <Image
+                        src={skill.icon}
+                        alt={skill.name}
+                        width={48}
+                        height={48}
+                        className="w-12 h-12 mx-auto"
+                    />
                     <p className="text-white mt-2">{skill.name}</p>
                 </div>
             ))}
