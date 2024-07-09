@@ -12,7 +12,7 @@ const About = () => (
                 I enjoy developing applications using <span className="text-[#5007C8] font-bold">C#, Java, and TypeScript</span>.
             </p>
         </div>
-        <div className="mt-6 lg:mt-0 lg:ml-6">
+        <div className="mt-6 lg:mt-0 lg:ml-4">
             <Image src="/Angeloprofile.png" alt="Angelo" width={200} height={200} // Ajuste as dimensões conforme necessário
                    className="rounded-full w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 object-cover"/>
         </div>
