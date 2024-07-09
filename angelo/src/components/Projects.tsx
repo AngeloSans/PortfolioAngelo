@@ -11,26 +11,26 @@ const projects = [
         title: "Retriever",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "IconesProjetos/Dog.svg",
+        image: "/IconesProjetos/Retriever.svg",
     },
     {
         title: "My Finances",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "IconesProjetos/Money.svg",
+        image: "/IconesProjetos/Money.svg",
     },
     {
         title: "XPhone",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "IconesProjetos/Iphone.svg",
+        image: "/IconesProjetos/Iphone.svg",
         githubLink: "https://github.com/Anjocaido13/XPhone",
     },
     {
         title: "Capital Invest",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "IconesProjetos/Invest.svg",
+        image: "/IconesProjetos/Invest.svg",
     }
 ];
 
