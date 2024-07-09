@@ -5,7 +5,7 @@ const projects = [
         title: "Sivir Coffe",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "IconesProjetos/Coffe.svg",
+        image: "/IconesProjetos/Coffe.svg",
     },
     {
         title: "Retriever",
