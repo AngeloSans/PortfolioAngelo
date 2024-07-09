@@ -10,13 +10,13 @@ const Contact = () => (
             <a href="mailto:Gabrielange883@gmail.com" className="text-lg mt-8 text-purple-700 font-bold">Gabrielange883@gmail.com</a>
             <div className="flex justify-center mt-6 space-x-4">
                 <a href="#" className="text-white">
-                    <Image src="/iconesSocialMedias/linkedin.svg" alt="LinkedIn" width={24} height={24} />
+                    <Image src="/IconesSocialMedias/linkedin.svg" alt="LinkedIn" width={24} height={24} />
                 </a>
                 <a href="#" className="text-white">
-                    <Image src="/iconesSocialMedias/github.svg" alt="GitHub" width={24} height={24} />
+                    <Image src="/IconesSocialMedias/github.svg" alt="GitHub" width={24} height={24} />
                 </a>
                 <a href="#" className="text-white">
-                    <Image src="/iconesSocialMedias/gmail.svg" alt="Gmail" width={24} height={24} />
+                    <Image src="/IconesSocialMedias/gmail.svg" alt="Gmail" width={24} height={24} />
                 </a>
             </div>
         </div>

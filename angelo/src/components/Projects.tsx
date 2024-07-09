@@ -11,7 +11,7 @@ const projects = [
         title: "Retriever",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "iconesProjetos/Dog.svg",
+        image: "IconesProjetos/Dog.svg",
     },
     {
         title: "My Finances",
@@ -23,14 +23,14 @@ const projects = [
         title: "XPhone",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "iconesProjetos/Iphone.svg",
+        image: "IconesProjetos/Iphone.svg",
         githubLink: "https://github.com/Anjocaido13/XPhone",
     },
     {
         title: "Capital Invest",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "iconesProjetos/Invest.svg",
+        image: "IconesProjetos/Invest.svg",
     }
 ];
 
@@ -43,9 +43,9 @@ const Projects = () => (
                     <Image
                         src={project.image}
                         alt={project.title}
-                        width={200} // Ajuste a largura conforme necessário
-                        height={200} // Ajuste a altura conforme necessário
-                        className="w-12 h-12 mx-auto mb-4" // Estilo para controle de tamanho
+                        width={200}
+                        height={200}
+                        className="w-12 h-12 mx-auto mb-4"
                     />
                     <h3 className="text-xl font-bold text-white mt-4">{project.title}</h3>
                     <p className="text-white mt-2">{project.description}</p>
