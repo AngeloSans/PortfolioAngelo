@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const skills = [
     { name: "Java", icon: "/icones/java.svg" },
     { name: "SpringBoot", icon: "/icones/springboot.svg" },
@@ -20,7 +22,7 @@ const Skills = () => (
         <div className="flex flex-wrap justify-center mt-6">
             {skills.map(skill => (
                 <div key={skill.name} className="m-10">
-                    <img src={skill.icon} alt={skill.name} className="w-12 h-12 mx-auto" />
+                    <Image src={skill.icon} alt={skill.name} className="w-12 h-12 mx-auto" />
                     <p className="text-white mt-2">{skill.name}</p>
                 </div>
             ))}

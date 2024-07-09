@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const projects = [
     {
         title: "Sivir Coffe",
@@ -32,7 +34,7 @@ const projects = [
         technologies: ["C#", "ASP.NET", "SQL"],
         image: "iconesProjetos/Invest.svg"
     }
-    // Adicione mais projetos aqui
+    
 ];
 
 const Projects = () => (
@@ -41,7 +43,7 @@ const Projects = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {projects.map(project => (
                 <div key={project.title} className="rounded-lg p-6 shadow-lg" style={{backgroundColor: '#090018'}}>
-                    <img src={project.image} alt={project.title} className="w-12 h-12 mx-auto mb-4" />
+                    <Image src={project.image} alt={project.title} className="w-12 h-12 mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-white mt-4">{project.title}</h3>
                     <p className="text-white mt-2">{project.description}</p>
                     {project.githubLink && (
