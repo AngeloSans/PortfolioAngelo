@@ -11,7 +11,7 @@ const projects = [
         title: "Retriever",
         description: "Aplicação de café feita usando .Net",
         technologies: ["C#", "ASP.NET", "SQL"],
-        image: "/IconesProjetos/Retriever.svg",
+        image: "/IconesProjetos/Dog.svg",
     },
     {
         title: "My Finances",
