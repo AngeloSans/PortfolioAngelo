@@ -4,10 +4,11 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+import React from "react";
 
 export default function Home() {
     return (
-        <div className="bg-custom-dark min-h-screen">
+        <div className="bg-custom-dark max-h-screen">
             <Head>
                 <title>Angelo Portfolio</title>
                 <meta name="description" content="Angelo's Portfolio" />
