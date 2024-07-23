@@ -8,8 +8,8 @@ import React from "react";
 
 export default function Home() {
     return (
-        <main className="bg-custom-dark min-h-screen">
-            <div className="bg-custom-dark max-h-screen">
+        <main className="bg-custom-dark ">
+            <div className="bg-custom-dark">
                 <Head>
                     <title>Angelo Portfolio</title>
                     <meta name="description" content="Angelo's Portfolio"/>
@@ -19,11 +19,13 @@ export default function Home() {
                      style={{backgroundImage: "url('/buraconegro.png')"}}>
                     <Header/>
                 </div>
-
                 <About/>
                 <Skills/>
                 <Projects/>
-                <Contact/>
+                <div className="relative w-full h-screen bg-cover bg-center">
+                    <Contact/>
+                </div>
+                
             </div>
         </main>
 
