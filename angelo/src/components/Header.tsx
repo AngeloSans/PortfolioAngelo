@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const Header = () => (
-    <header className="text-center my-1 px-4 sm:px-6 lg:px-8 min-h-screen h-[70vh]">
+    <header className="bg-custom-dark text-center my-1 px-4 sm:px-6 lg:px-8 min-h-screen h-[70vh]">
         <div className="flex justify-center">
         </div>
         <h1 className="text-4xl font-bold text-white mt-40 sm:mt-40 lg:mt-40 sm:text-5xl lg:text-6xl" style={{ marginRight: 'auto', marginLeft: 'auto', maxWidth: '90%' }}>

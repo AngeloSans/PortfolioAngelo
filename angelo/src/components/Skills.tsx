@@ -16,7 +16,7 @@ const skills = [
 ];
 
 const Skills = () => (
-    <section className="my-12 text-center">
+    <section className="bg-custom-dark my-12 text-center">
         <h2 className="text-3xl font-bold text-white">My Skills</h2>
         <div className="flex flex-wrap justify-center mt-6">
             {skills.map(skill => (
