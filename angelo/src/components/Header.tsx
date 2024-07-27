@@ -13,12 +13,13 @@ const Header = () => (
         <p className="text-lg text-white mt-2 sm:mt-4 lg:mt-6 sm:text-xl lg:text-2xl max-w-2xl mx-auto">
             I&apos;m a software engineer from Brazil, who loves to develop new solutions.
         </p>
-        <button
+        <a href="/AngeloSantosCurriculo.pdf"
             className="inline-block mt-6 px-6 py-3 text-white rounded-lg shadow-lg hover:bg-purple-700 sm:mt-8 lg:mt-10"
             style={{ background: '#5007C8', borderRadius: '50px' }}
+           download
         >
             Download CV
-        </button>
+        </a>
     </header>
 );
 
