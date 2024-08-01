@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react';
 const Header = () => {
     const [text, setText] = useState('');
     const [isClicked, setIsClicked] = useState(false);
-    const targetText = 'Sooftware Engineer'; 
-    const typingSpeed = 100;
+    const targetText = 'SSoftware Engineer'; 
+    const typingSpeed = 200;
 
     useEffect(() => {
         let index = 0;
@@ -15,11 +15,15 @@ const Header = () => {
                 if (index < targetText.length) {
                     return prev + targetText[index];
                 }
+                
+                index = 0;
+                setText('');
                 return prev;
             });
             index += 1;
             if (index > targetText.length) {
-                clearInterval(interval);
+                index = 0; 
+                setText(''); 
             }
         }, typingSpeed);
 
