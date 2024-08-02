@@ -9,27 +9,27 @@ const projects = [
     },
     {
         title: "Retriever",
-        description: "Aplicação de café feita usando .Net",
-        technologies: ["C#", "ASP.NET", "SQL"],
+        description: "Blog sobre Ansiedade",
+        technologies: ["TypeScript", "Tailwind", "Next.js", "Sanity.IO"],
         image: "/IconesProjetos/Dog.svg",
     },
     {
         title: "My Finances",
-        description: "Aplicação de café feita usando .Net",
-        technologies: ["C#", "ASP.NET", "SQL"],
+        description: "APi de finanças pessoais",
+        technologies: ["Java", "SpringBoot", "SQL"],
         image: "/IconesProjetos/Money.svg",
     },
     {
         title: "XPhone",
-        description: "Aplicação de café feita usando .Net",
-        technologies: ["C#", "ASP.NET", "SQL"],
+        description: "API de Aluguel de SmartPhones",
+        technologies: ["C#", "ASP.NET", "SQL", "CQRS", "Docker"],
         image: "/IconesProjetos/Iphone.svg",
         githubLink: "https://github.com/Anjocaido13/XPhone",
     },
     {
         title: "Capital Invest",
-        description: "Aplicação de café feita usando .Net",
-        technologies: ["C#", "ASP.NET", "SQL"],
+        description: "Aplicação de Mercado Financeiro",
+        technologies: ["Java", "SpringBoot", "SQL", "HTML/CSS"],
         image: "/IconesProjetos/Invest.svg",
     }
 ];
