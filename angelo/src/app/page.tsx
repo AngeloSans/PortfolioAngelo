@@ -14,10 +14,7 @@ export default function Home() {
                 <meta name="description" content="Angelo's Portfolio"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <div className="relative w-full h-screen bg-cover bg-center"
-                 style={{backgroundImage: "url('/buraconegro.png')"}}>
-                <Header/>
-            </div>
+            <Header/>
             <About/>
             <Skills/>
             <Projects/>
