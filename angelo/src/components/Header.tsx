@@ -49,8 +49,8 @@ const Header = () => {
             </p>
             <a
                 href="/AngeloSantosCurriculo.pdf"
-                className={`inline-block mt-6 px-6 py-3 font-bolder rounded-lg shadow-lg sm:mt-8 lg:mt-10 ${isClicked ? 'bg-white text-black' : 'bg-[#5007C8] text-white'} hover:bg-white hover:text-black hover:border-purple`}
-                style={{ borderRadius: '50px', textDecoration: 'none' }}
+                className={`inline-block mt-6 px-6 py-3 font-bold rounded-full shadow-lg sm:mt-8 lg:mt-10 ${isClicked ? 'bg-white text-black shadow-glow' : 'bg-[#5007C8] text-white shadow-glow'} hover:bg-white hover:text-black hover:border-purple transition-all duration-300`}
+                style={{borderRadius: '50px', textDecoration: 'none'}}
                 onClick={handleClick}
                 download
             >

@@ -43,6 +43,17 @@ body {
   animation: typing 2s steps(30, end), blink-caret .75s step-end infinite;
 }
 
+
+.shadow-glow {
+  box-shadow: 0 0 15px rgba(80, 7, 200, 0.8), 0 0 30px rgba(80, 7, 200, 0.5); /* Tom de roxo */
+}
+
+.shadow-glow:hover {
+  box-shadow: 0 0 25px rgba(80, 7, 200, 0.9), 0 0 50px rgba(80, 7, 200, 0.7); /* Tom de roxo mais claro */
+}
+
+
+
 @keyframes typing {
   from { width: 0; }
   to { width: 14em; }
