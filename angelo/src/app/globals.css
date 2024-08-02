@@ -42,6 +42,13 @@ body {
   overflow: hidden;
   animation: typing 2s steps(30, end), blink-caret .75s step-end infinite;
 }
+.image-brightness-hover {
+  transition: filter 0.3s ease-in-out;
+}
+
+.image-brightness-hover:hover {
+  filter: brightness(1.25);
+}
 
 
 .shadow-glow {

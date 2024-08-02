@@ -1,4 +1,4 @@
-"use client"; // Certifique-se de que esta linha esteja correta
+"use client"; 
 
 import { useEffect, useState } from 'react';
 
