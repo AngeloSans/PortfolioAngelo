@@ -8,26 +8,20 @@ import React from "react";
 
 export default function Home() {
     return (
-        <main className="bg-custom-dark ">
-            <div className="bg-custom-dark">
-                <Head>
-                    <title>Angelo Portfolio</title>
-                    <meta name="description" content="Angelo's Portfolio"/>
-                    <link rel="icon" href="/favicon.ico"/>
-                </Head>
-                <div className="relative w-full h-screen bg-cover bg-center"
-                     style={{backgroundImage: "url('/buraconegro.png')"}}>
-                    <Header/>
-                </div>
-                <About/>
-                <Skills/>
-                <Projects/>
-                <div className="relative w-full h-screen bg-cover bg-center">
-                    <Contact/>
-                </div>
-                
+        <main className="flex flex-col min-h-screen bg-custom-dark">
+            <Head>
+                <title>Angelo Portfolio</title>
+                <meta name="description" content="Angelo's Portfolio"/>
+                <link rel="icon" href="/favicon.ico"/>
+            </Head>
+            <div className="relative w-full h-screen bg-cover bg-center"
+                 style={{backgroundImage: "url('/buraconegro.png')"}}>
+                <Header/>
             </div>
+            <About/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
         </main>
-
     );
 }
