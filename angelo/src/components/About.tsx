@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const About = () => (
-    <section className="min-h-1.5 my-12 px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left">
+    <section className="min-h-1.5 my-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
         <div className="lg:flex-2">
-            <h2 className="text-3xl text-center font-bold text-white sm:text-2xl lg:text-3xl">About</h2>
-            <p className="text-lg text-center text-white mt-4 mx-auto max-w-2xl sm:text-xl lg:text-2xl">
+            <h2 className="text-3xl font-bold text-white sm:text-2xl lg:text-3xl">About</h2>
+            <p className="text-lg text-white mt-4 mx-auto max-w-2xl sm:text-xl lg:text-2xl">
                 Hi, my name is Angelo, I&apos;m based in Brazil.
                 I&apos;ve been learning software development since 2022.
                 I&apos;ve been developing some skills and earning some recognition, for example,
@@ -12,7 +12,7 @@ const About = () => (
                 I enjoy developing applications using <span className="text-[#5007C8] font-bold">C#, Java, and TypeScript</span>.
             </p>
         </div>
-        <div className="mt-6 lg:mt-0 lg:ml-6">
+        <div className="mt-6">
             <Image
                 src="/Angeloprofile.png"
                 alt="Angelo"
