@@ -8,7 +8,7 @@ import React from "react";
 
 export default function Home() {
     return (
-        <main className="flex flex-col min-h-screen bg-custom-dark">
+        <main className="flex flex-col min-h-screen ">
             <Head>
                 <title>Angelo Portfolio</title>
                 <meta name="description" content="Angelo's Portfolio"/>
