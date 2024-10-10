@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const WorkExperience = () => (
-    <section className="bg-custom-dark my-12 text-center">
+    <section className=" my-12 text-center">
         <h1 className="text-white text-2xl font-bold mb-6">My Work Experience</h1>
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <div className="bg-custom-dark p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center">
