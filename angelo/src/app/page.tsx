@@ -9,7 +9,7 @@ import React from "react";
 
 export default function Home() {
     return (
-        <main className="flex flex-col min-h-screen ">
+        <main className=" flex flex-col min-h-screen items-center justify-between p-0">
             <Head>
                 <title>Angelo Portfolio</title>
                 <meta name="description" content="Angelo's Portfolio"/>

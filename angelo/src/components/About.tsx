@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const About = () => (
-    <section className="min-h-1.5 my-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
+    <section className="bg-custom-dark w-full min-h-1.5 my-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
         <div className="lg:flex-2">
             <h2 className="text-3xl font-bold text-white sm:text-2xl lg:text-3xl">About</h2>
             <p className="text-lg text-white mt-4 mx-auto max-w-2xl sm:text-xl lg:text-2xl">

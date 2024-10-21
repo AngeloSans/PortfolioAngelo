@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-const Contact = () => (
-    <section className="my-12 text-center h-96 flex flex-col justify-end" style={{ backgroundColor: '#04000E' }}>
+const Footer = () => (
+    <footer className="bg-[#111111] text-white py-28 w-full  text-center h-96 flex flex-col justify-end" style={{ backgroundColor: '#04000E' }}>
         <h2 className="text-3xl font-bold text-white mt-32">Contact</h2>
         <p className="text-lg text-white mt-6">
             I&apos;m currently looking for a job offer as a software engineer.
@@ -20,7 +20,7 @@ const Contact = () => (
                 </a>
             </div>
         </div>
-    </section>
+    </footer>
 );
 
-export default Contact;
+export default Footer;
